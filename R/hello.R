@@ -1,6 +1,6 @@
 digitos <- function(Numero_3_digitos){
   N <- Numero_3_digitos
-  if(N >= 100 & n < 1000){
+  if(N >= 100 & N < 1000){
     dig1 <- trunc(N/100)
     X1 <- N %% 100
     dig2 <- trunc(x1/10)
